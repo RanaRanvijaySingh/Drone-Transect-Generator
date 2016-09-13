@@ -64,7 +64,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     final List<LatLng> latLngPolygon = new ArrayList<>();
-
     {
         latLngPolygon.add(new LatLng(18.517458180674886, 73.77362251281738));
         latLngPolygon.add(new LatLng(18.51379572782087, 73.77422332763672));
@@ -203,7 +202,8 @@ public class MainActivity extends AppCompatActivity {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    List<Point> waypoints = Transects.generateTransects(polygonPoints, angle, 0.0003);
+                    List<Point> waypoints = Transects.generateTransects(polygonPoints, angle, 0
+                    .0003);
                     List<LatLng> latLngList = new ArrayList<>();
                     for (int i = 0; i < waypoints.size(); i++) {
                         LatLng latLng = new LatLng(waypoints.get(i).getX(),
