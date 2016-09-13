@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Drone Transect</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoicmFuYTlsb2dhbiIsImEiOiJjaW43MHBnaXkwN2o3dHBseTgxaTBqYXpqIn0.hUoGqwvkMEQwP4nNoqQooQ</string>
+</resources>
