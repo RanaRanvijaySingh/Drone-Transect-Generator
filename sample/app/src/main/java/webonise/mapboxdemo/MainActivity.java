@@ -202,8 +202,7 @@ public class MainActivity extends AppCompatActivity {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    List<Point> waypoints = Transects.generateTransects(polygonPoints, angle, 0
-                    .0003);
+                    List<Point> waypoints = Transects.generateTransects(polygonPoints, angle, 0.0003);
                     List<LatLng> latLngList = new ArrayList<>();
                     for (int i = 0; i < waypoints.size(); i++) {
                         LatLng latLng = new LatLng(waypoints.get(i).getX(),
