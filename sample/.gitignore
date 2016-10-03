@@ -15,7 +15,7 @@ gen/
 # Gradle files
 */build/
 /local.properties
-/.idea
+
 /.navigation
 .idea/modules.xml
 app/app.iml
@@ -44,7 +44,7 @@ Thumbs.db
 
 # Android Studio
 *.iml
-.idea
+
 #.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
 .gradle
 build/
